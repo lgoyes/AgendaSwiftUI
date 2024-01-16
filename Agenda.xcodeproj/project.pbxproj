@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8D242332B4E0D8600392B4F /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D242322B4E0D8600392B4F /* PasswordField.swift */; };
 		E8E31DCF2B3B947600D6240F /* AgendaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E31DCE2B3B947600D6240F /* AgendaApp.swift */; };
-		E8E31DD12B3B947600D6240F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E31DD02B3B947600D6240F /* ContentView.swift */; };
 		E8E31DD32B3B947800D6240F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E31DD22B3B947800D6240F /* Assets.xcassets */; };
 		E8E31DD62B3B947800D6240F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E31DD52B3B947800D6240F /* Preview Assets.xcassets */; };
 		E8E31DE02B3B947800D6240F /* AgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E31DDF2B3B947800D6240F /* AgendaTests.swift */; };
 		E8E31DEA2B3B947800D6240F /* AgendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E31DE92B3B947800D6240F /* AgendaUITests.swift */; };
 		E8E31DEC2B3B947800D6240F /* AgendaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E31DEB2B3B947800D6240F /* AgendaUITestsLaunchTests.swift */; };
+		E8E31DFA2B3B94DB00D6240F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E31DF92B3B94DB00D6240F /* LoginView.swift */; };
+		E8E31DFE2B3B98CA00D6240F /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E31DFD2B3B98CA00D6240F /* AppColor.swift */; };
+		E8ED66642B55FE0D0001EC00 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ED66632B55FE0D0001EC00 /* DesignSystem.swift */; };
+		E8ED66672B55FE630001EC00 /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ED66662B55FE630001EC00 /* Dimensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8D242322B4E0D8600392B4F /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
 		E8E31DCB2B3B947600D6240F /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E31DCE2B3B947600D6240F /* AgendaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaApp.swift; sourceTree = "<group>"; };
-		E8E31DD02B3B947600D6240F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8E31DD22B3B947800D6240F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8E31DD52B3B947800D6240F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8E31DDB2B3B947800D6240F /* AgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		E8E31DE52B3B947800D6240F /* AgendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E31DE92B3B947800D6240F /* AgendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaUITests.swift; sourceTree = "<group>"; };
 		E8E31DEB2B3B947800D6240F /* AgendaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8E31DF92B3B94DB00D6240F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E8E31DFD2B3B98CA00D6240F /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		E8ED66632B55FE0D0001EC00 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		E8ED66662B55FE630001EC00 /* Dimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		E8E31DCD2B3B947600D6240F /* Agenda */ = {
 			isa = PBXGroup;
 			children = (
+				E8ED66652B55FE4D0001EC00 /* DesignSystem */,
+				E8E31DF82B3B94CE00D6240F /* View */,
 				E8E31DCE2B3B947600D6240F /* AgendaApp.swift */,
-				E8E31DD02B3B947600D6240F /* ContentView.swift */,
 				E8E31DD22B3B947800D6240F /* Assets.xcassets */,
 				E8E31DD42B3B947800D6240F /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				E8E31DEB2B3B947800D6240F /* AgendaUITestsLaunchTests.swift */,
 			);
 			path = AgendaUITests;
+			sourceTree = "<group>";
+		};
+		E8E31DF82B3B94CE00D6240F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8E31DF92B3B94DB00D6240F /* LoginView.swift */,
+				E8D242322B4E0D8600392B4F /* PasswordField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8ED66652B55FE4D0001EC00 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				E8ED66632B55FE0D0001EC00 /* DesignSystem.swift */,
+				E8E31DFD2B3B98CA00D6240F /* AppColor.swift */,
+				E8ED66662B55FE630001EC00 /* Dimensions.swift */,
+			);
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8E31DD12B3B947600D6240F /* ContentView.swift in Sources */,
+				E8E31DFA2B3B94DB00D6240F /* LoginView.swift in Sources */,
+				E8ED66642B55FE0D0001EC00 /* DesignSystem.swift in Sources */,
+				E8ED66672B55FE630001EC00 /* Dimensions.swift in Sources */,
+				E8D242332B4E0D8600392B4F /* PasswordField.swift in Sources */,
 				E8E31DCF2B3B947600D6240F /* AgendaApp.swift in Sources */,
+				E8E31DFE2B3B98CA00D6240F /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
